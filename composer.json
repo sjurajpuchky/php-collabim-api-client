@@ -1,0 +1,23 @@
+{
+  "name": "baba/collabim-api-client",
+  "type": "library",
+  "license": "GPL-2.0-only",
+  "authors": [
+    {
+      "name": "Juraj Puchký - BABA Tumise s.r.o.",
+      "email": "info@baba.bj"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BABA\\Collabim\\API\\Client\\": "src/"
+    }
+  },
+  "provide": {
+    "baba/collabim-api-client": "1.0.0"
+  },
+  "require": {
+    "php": ">=7.3",
+    "baba/json-api-client": "dev-main"
+  }
+}

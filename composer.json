@@ -2,6 +2,7 @@
   "name": "baba/collabim-api-client",
   "type": "library",
   "license": "GPL-2.0-only",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Juraj Puchký - BABA Tumise s.r.o.",

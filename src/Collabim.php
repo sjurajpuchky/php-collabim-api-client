@@ -33,13 +33,12 @@ class Collabim
         $this->client = new JsonRestApiClient(new CURL());
     }
 
-    public function authenticate($apiKey) {
+    public function authenticate($apiKey): bool {
         if(!empty($apiKey)) {
             $this->headers[] = 'Authorization:' . $apiKey;
-            $this->isAuthenticated = true;
-        } else {
-            throw new \Exception('ApiKey is mandatory.');
+            return $this->isAuthenticated = true;
         }
+        return false;
     }
 
     /**

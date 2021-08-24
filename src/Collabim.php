@@ -37,8 +37,8 @@ class Collabim
     public function authenticate($apiKey): bool {
         if(!empty($apiKey)) {
             $this->headers[] = 'Authorization:' . $apiKey;
-            $this->isAuthenticated = true
-            return true;
+
+            return $this->isAuthenticated = true;
         }
         return false;
     }

@@ -7,6 +7,7 @@ namespace BABA\Collabim\API\Client;
 use BABA\JSON\API\Client\DataProvider\CURL;
 use BABA\JSON\API\Client\IDataProvider;
 use BABA\JSON\API\Client\JsonRestApiClient;
+use Exception;
 
 class Collabim
 {

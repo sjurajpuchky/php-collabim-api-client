@@ -18,7 +18,9 @@
     "baba/collabim-api-client": "1.0.0"
   },
   "require": {
-    "php": ">=7.3",
-    "baba/json-api-client": "dev-main"
+    "php": ">=7.4",
+    "baba/json-api-client": "dev-main",
+    "baba/rest-api-client": "dev-main",
+    "ext-json": "*"
   }
 }

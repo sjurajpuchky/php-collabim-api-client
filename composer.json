@@ -1,5 +1,5 @@
 {
-  "name": "baba/collabim-api-client",
+  "name": "baba/php-collabim-api-client",
   "type": "library",
   "license": "GPL-2.0-only",
   "minimum-stability": "dev",
@@ -15,7 +15,7 @@
     }
   },
   "provide": {
-    "baba/collabim-api-client": "1.0.0"
+    "baba/collabim-api-client": "1.1.0"
   },
   "require": {
     "php": ">=7.4",

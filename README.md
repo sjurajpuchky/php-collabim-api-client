@@ -13,8 +13,8 @@ or
 git clone https://github.com/sjurajpuchky/collabim-api-client.git
 cd collabim-api-client
 composer install
-# setup api key in samples/config.php
-php samples/sample-*.php
+# setup api key in config.ini
+php samples/allatonce.php
 ```
 
 # Samples 

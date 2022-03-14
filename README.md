@@ -58,6 +58,7 @@ https://www.webtrace.cz - Tvorba portálů a ecommerce b2b/b2c (eshopů) na zak�
 
 # Log
 1.0.0 - first release
+
 1.1.0 - function list is extended
 
 # Copyright
